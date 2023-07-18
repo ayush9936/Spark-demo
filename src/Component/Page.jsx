@@ -31,7 +31,7 @@ const Page = () => {
           <div className="tabs mt-14 flex justify-start mx-52 ">
             <button
               className={` backdrop-blur-sm bg-white/10 px-5 py-2 rounded-full  font-bold hover:text-[#ff6b6b]  hover:bg-white ${
-                button == 1
+                button === 1
                   ? " bg-[#ff6b6b] text-white  "
                   : "backdrop-blur-sm bg-white/10 text-white"
               } `}
@@ -41,7 +41,7 @@ const Page = () => {
             </button>
             <button
               className={` backdrop-blur-sm bg-white/10 px-5 py-2 rounded-full  font-bold hover:text-[#ff6b6b]  hover:bg-white mx-2 ${
-                button == 2
+                button === 2
                   ? " bg-[#ff6b6b] text-white  "
                   : "backdrop-blur-sm bg-white/10 text-white"
               } `}
@@ -51,7 +51,7 @@ const Page = () => {
             </button>
             <button
               className={` backdrop-blur-sm bg-white/10 px-5 py-2 rounded-full  font-bold hover:text-[#ff6b6b]  hover:bg-white mx-2 ${
-                button == 3
+                button === 3
                   ? " bg-[#ff6b6b] text-white "
                   : "backdrop-blur-sm bg-white/10 text-white"
               } `}
@@ -61,7 +61,7 @@ const Page = () => {
             </button>
             <button
               className={` backdrop-blur-sm bg-white/10 px-5 py-2 rounded-full  font-bold hover:text-[#ff6b6b]  hover:bg-white mx-2 ${
-                button == 4
+                button === 4
                   ? " bg-[#ff6b6b] text-white  "
                   : "backdrop-blur-sm bg-white/10 text-white"
               } `}
